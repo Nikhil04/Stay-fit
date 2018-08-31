@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/wallpaper"
+    tools:context="com.example.gujarati.naeshuruwat.Main7Activity">
+
+    <TextView
+        android:text="STAY FIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#666"
+        app:mtf_image="@drawable/user"
+        android:id="@+id/materialTextField1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:id="@+id/testuser"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#666"
+        app:mtf_image="@drawable/user"
+        android:id="@+id/materialTextField2"
+        android:layout_below="@+id/materialTextField1"
+        android:layout_alignStart="@+id/materialTextField1"
+        android:layout_marginTop="46dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:id="@+id/testpass"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/materialTextField2"
+        android:layout_alignEnd="@+id/materialTextField2">
+
+
+    <Button
+        android:text="Login In"
+        android:background="@drawable/buttongradient1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materialTextField2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:id="@+id/button2"
+        android:textColor="@color/colorWhite"
+        android:onClick="testlogin (Main7Activity)"/>
+
+        <Button
+            android:text="New User"
+            android:background="@drawable/buttongradient1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/materialTextField2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="63dp"
+            android:id="@+id/button3"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+</RelativeLayout>

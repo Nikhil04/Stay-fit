@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="HOME"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/menu_search"
+        android:title="EXERCISES"
+        android:icon="@drawable/heart"
+        />
+
+    <item
+        android:id="@+id/menu_analysis"
+        android:title="ANALYSIS"
+        android:icon="@drawable/analy" />
+    <item
+        android:id="@+id/menu_profile"
+        android:title="PRODUCTS"
+        android:icon="@drawable/c" />
+    <item
+        android:id="@+id/menu_no"
+        android:title="PROFILE"
+        android:icon="@drawable/use" />
+
+</menu>

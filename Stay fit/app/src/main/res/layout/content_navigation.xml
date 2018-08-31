@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gujarati.naeshuruwat.navigation"
+    tools:showIn="@layout/app_bar_navigation">
+
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_directions_run_black_24dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/run"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_height="100dp"
+            android:layout_width="70dp" />
+
+        <ImageView
+        android:src="@drawable/ic_favorite_black_24dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/cal"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_height="100dp"
+        android:layout_width="70dp" />
+
+
+    <ImageView
+        android:src="@drawable/ic_description_black_24dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/des"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_height="100dp"
+        android:layout_width="70dp" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:text="S T A Y         F I T "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView16"
+        android:textColor="#000000"
+        android:fontFamily="serif" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+</RelativeLayout>

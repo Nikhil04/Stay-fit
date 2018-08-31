@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_profile_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context="com.example.gujarati.naeshuruwat.ProfileUi">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="235dp">
+
+        <LinearLayout
+            android:background="@drawable/tarunchutiya"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/profilePic"
+                android:src="@drawable/newc"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                />
+
+            <TextView
+                android:layout_marginTop="65dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:id="@+id/UserName"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:text="Start on your terms"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:id="@+id/UserName2"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:text="Take the first step with your free personalized coach workout"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+        >
+
+            <TextView
+                android:text="WHAT IS THE COACH?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:text="Your weekly training plan for maximum progress"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="200dp" />
+            <TextView
+                android:text="For everyone,men and women,beginners and pros"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="200dp" />
+
+            <TextView
+                android:text="Unlock all 900+ training variations for long-term progress"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_marginTop="145dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="200dp" />
+
+
+            <TextView
+                android:text="For everyone,men and women,beginners and pros"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="200dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emoji_1f449_1f3fb"
+                android:id="@+id/imageView11"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emoji_1f449_1f3fb"
+                android:id="@+id/imageView12"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emoji_1f449_1f3fb"
+                android:id="@+id/imageView13"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emoji_1f449_1f3fb"
+                android:id="@+id/imageView17"
+                android:layout_marginTop="145dp"
+                android:layout_marginStart="5dp"/>
+
+            <Button
+                android:text="Get your Coach"
+                android:layout_marginTop="307dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:textColor="#ffffff"
+                android:background="#0b93f4"/>
+
+
+        </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

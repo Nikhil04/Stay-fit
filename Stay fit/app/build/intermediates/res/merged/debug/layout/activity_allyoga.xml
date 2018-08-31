@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradient"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gujarati.naeshuruwat.cardview">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="20dp"
+                android:id="@+id/id1"
+                android:layout_gravity="center"
+                android:background="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/id1"
+                android:layout_alignParentStart="true"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="1"
+                    android:layout_height="120dp"
+                    android:id="@+id/cv1"
+                    android:background="#B03060">
+
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anulom Vilom"
+                        android:textSize="30sp"
+                        android:layout_weight="0.66"
+                        android:id="@+id/tv2"
+                        android:textStyle="normal|italic"
+                        android:textColor="#ffffff"
+                        android:fontFamily="cursive" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        card_view:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/imageView1"
+                        android:layout_weight="0.66"
+                        android:layout_marginTop="60dp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="30dp"
+                android:id="@+id/id2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/id1"
+                android:layout_alignParentStart="true"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="1"
+                    android:layout_height="120dp"
+                    android:id="@+id/cv2"
+                    android:background="#B03060">
+
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="kapal bhati"
+                        android:textSize="30sp"
+                        android:layout_weight="0.66"
+                        android:id="@+id/tv3"
+                        android:textStyle="normal|italic"
+                        android:textColor="#ffffff"
+                        android:fontFamily="cursive" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        card_view:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/imageView2"
+                        android:layout_weight="0.66"
+                        android:layout_marginTop="60dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="30dp"
+                android:id="@+id/id3"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/id1"
+                android:layout_alignParentStart="true"
+                android:background="#b03060"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="1"
+                    android:layout_height="120dp"
+                    android:id="@+id/cv3"
+                    android:background="#B03060">
+
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gomuk Asan"
+                        android:textSize="30sp"
+                        android:layout_weight="0.66"
+                        android:id="@+id/tv4"
+                        android:textStyle="normal|italic"
+                        android:textColor="#ffffff"
+                        android:fontFamily="cursive" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        card_view:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/imageView3"
+                        android:layout_weight="0.66"
+                        android:layout_marginTop="60dp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="30dp"
+                android:id="@+id/id4"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/id1"
+                android:layout_alignParentStart="true"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="1"
+                    android:layout_height="120dp"
+                    android:id="@+id/cv4"
+                    android:background="#b03060">
+
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agni Sar Kriya"
+                        android:textSize="30sp"
+                        android:layout_weight="0.66"
+                        android:id="@+id/tv5"
+                        android:textStyle="normal|italic"
+                        android:textColor="#ffffff"
+                        android:fontFamily="cursive" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        card_view:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/imageView4"
+                        android:layout_weight="0.66"
+                        android:layout_marginTop="60dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="30dp"
+                android:id="@+id/id5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/id1"
+                android:layout_alignParentStart="true"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="1"
+                    android:layout_height="120dp"
+                    android:id="@+id/cv6"
+                    android:background="#b03060">
+
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bhamari Panayam"
+                        android:textSize="30sp"
+                        android:layout_weight="0.66"
+                        android:id="@+id/tv6"
+                        android:textStyle="normal|italic"
+                        android:textColor="#ffffff"
+                        android:fontFamily="cursive" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        card_view:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/imageView5"
+                        android:layout_weight="0.66"
+                        android:layout_marginTop="60dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="30dp"
+                android:id="@+id/id6"
+
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/id1"
+                android:layout_alignParentStart="true"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="1"
+                    android:layout_height="120dp"
+                    android:id="@+id/cv5"
+                    android:background="#b03060">
+
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Surya Namaskar"
+                        android:layout_weight="0.66"
+                        android:id="@+id/tv7"
+                        android:textColor="#ffffff"
+                        android:fontFamily="cursive"
+                        android:textSize="30dp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        card_view:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/imageView6"
+                        android:layout_weight="0.66"
+                        android:layout_marginTop="60dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

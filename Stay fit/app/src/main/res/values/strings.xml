@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Stay Fit</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu">Menu</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_hot_deals">Hot deals</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="search_fragment">Search Fragment</string>
+    <string name="cart_fragment">Cart Fragment</string>
+    <string name="hot_deals_fragment">Hot Deals Fragment</string>
+    <string name="title_activity_navigation1">StayFit</string>
+    <string name="facebook_app_id">1892280237749319</string>
+    <string name="recent_asan">Kapal Bhati</string>
+    <string name="in_recent_asan">When you do pranayama 80 percent of the toxins in our body are released through the outgoing breath. Regular practice of Kapal Bhati pranayama detoxifies all the systems in our body. And the obvious sign of a healthy body is a shining forehead.” Kapal Bhati literally translates to ‘the shining forehead’ and this is exactly what happens with regular practice of this pranayama. A forehead that glows not just from outside but also an intellect that becomes sharp and refined.
+
+</string>
+    <string name="in_recent_asan1">Anulom Vilom Pranayama is the ideal pranayama for healthy heart. Anulom Vilom Pranayama is also known as Nadi shodhana pranayam (alternate nostril breathing). It is next level of Anulom Vilom. In Anulom Vilom Pranayama we inhale and exhale, but in Nadi shodhana pranayam we hold (kumbhaka or retention) our breath for a second or minute than exhale.</string>
+    <string name="publish_date">2018-03-19 20:00:02</string>
+    <string name="in_recent_asan2">Gomukhasana or Cow Face Pose is an asana. Sanskrit: गोमुखासन; Go – Cow, Mukha – Face, Asana – Pose; Pronounced As: go-moo-KAHS-anna
+
+This asana takes its name from the Sanskrit words ‘Go’, meaning cow, ‘Mukha’, meaning face, and ‘Asana’, meaning pose. Incidentally, the word ‘Go’ also means light.</string>
+</resources>

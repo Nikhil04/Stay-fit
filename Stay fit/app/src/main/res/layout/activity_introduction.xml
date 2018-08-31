@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#000000"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:layout_marginTop="0dp">
+
+
+
+    <TextView
+        android:text="CORE DEVELOPERS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/user"
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/user"
+        android:id="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:text="G A U R A V"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView17"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <TextView
+        android:text="T A R U N"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/textView17"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignStart="@+id/imageView9" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/gitt"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginStart="24dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/gitt"
+        android:id="@+id/imageView11"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginStart="255dp" />
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="EMBEDED SYSTEMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:id="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"
+        android:layout_marginTop="319dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/user"
+        android:layout_marginTop="340dp"
+        android:id="@+id/imageView16"
+      />
+
+    <TextView
+        android:text="V A T S A L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView16"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="N I K H I L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+
+        android:layout_below="@+id/imageView16"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/imageView18" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/user"
+        android:id="@+id/imageView18"
+        android:layout_above="@+id/textView24"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/user"
+        android:id="@+id/imageView19"
+        android:layout_alignTop="@+id/imageView16"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="A D I T Y A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView25"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RATE  US"
+        android:layout_marginTop="520dp"
+        android:textColor="#000000"
+        android:background="#ffffff"/>
+
+</RelativeLayout>

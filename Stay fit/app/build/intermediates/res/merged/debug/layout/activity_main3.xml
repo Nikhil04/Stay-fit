@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#78909C"
+    android:padding="16dp">
+
+
+    <TextView
+        android:text="Select a domain for Yourself!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/linearLayout6"
+        android:layout_marginStart="11dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+            </RelativeLayout>
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="50dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/id1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                card_view:cardCornerRadius="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:src="@drawable/gymstay"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/im1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="20dp"
+                android:id="@+id/id2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="4dp"
+                android:layout_marginBottom="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="150dp">
+
+
+                <ImageView
+                    android:src="@drawable/yogastay"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/card_view"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="150dp"
+                    android:id="@+id/im2" />
+            </android.support.v7.widget.CardView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+            <Button
+                android:text="Login with us"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttongradient2"
+                android:id="@+id/button4" />
+
+    <Button
+        android:layout_marginStart="70dp"
+        android:text="Login with facebook"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttongradient2"
+        android:id="@+id/button5"/>
+</LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp">
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:src="@drawable/fb1"
+        android:id="@+id/im3" />
+
+        <ImageView
+            android:layout_marginStart="40dp"
+            android:src="@drawable/twit"
+            android:id="@+id/im4"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:layout_marginStart="40dp"
+            android:src="@drawable/gitt"
+            android:id="@+id/im5"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>

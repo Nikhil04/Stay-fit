@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_newsecond"
+    android:layout_width="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.gujarati.naeshuruwat.newsecond"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/redoverlay"
+        android:layout_height="360dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+    </ImageView>
+
+    <TextView
+        android:text="Sign in with your existing account,or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:id="@+id/textView11"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:text="Login with us"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttongradient1"
+            android:id="@+id/bt4" />
+
+        <Button
+            android:layout_marginStart="70dp"
+            android:text="Login with facebook"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttongradient1"
+            android:id="@+id/bt5"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="Make the best of StayFit!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="29sp"
+        android:layout_marginTop="375dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="create a new one."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
